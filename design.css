@@ -1,0 +1,76 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:rgb(223, 191, 226);
+    margin: 0px;
+     position: absolute;    
+}
+header{
+    background-color: rgb(20, 19, 19);
+    height: 75px;
+    opacity: 0.8;
+}
+.header-name{
+    padding: 20px;
+    color: cornsilk ;
+    font-size: 30px;
+    float: left;
+
+}
+span{
+    color: crimson;
+    font-size: 30px;
+
+}
+.header-socialmedia{
+    float: right;
+    
+    color: cornsilk ;
+    font-size: 17px;
+    height: 75px;
+    margin:auto;
+}
+.sm
+{   
+    float: right;
+    padding: 2px;
+    margin: 15px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+.L
+{
+background-color: rgb(23, 190, 23);
+padding:10px; 
+}
+.G
+{
+background-color: rgb(23, 190, 23); 
+padding:10px 10px 10px 10px;
+}
+img{
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.aboutme{
+    text-align: left;
+    position: relative;
+}
+.content{
+    font-size: 20px;
+}
+p{
+    float: right;
+    font-size: 30px;
+    margin-right: 1000px;
+    position: relative;
+    top: 600px;
+}
