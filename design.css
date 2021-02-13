@@ -3,74 +3,67 @@ html{
     margin: 0px;
 }
 body{
-    background-color:rgb(223, 191, 226);
-    margin: 0px;
-     position: absolute;    
+     background-color: honeydew;
+     margin: 0px;
+      
 }
-header{
-    background-color: rgb(20, 19, 19);
-    height: 75px;
-    opacity: 0.8;
-}
-.header-name{
-    padding: 20px;
-    color: cornsilk ;
-    font-size: 30px;
-    float: left;
 
-}
 span{
     color: crimson;
     font-size: 30px;
 
 }
-.header-socialmedia{
-    float: right;
-    
-    color: cornsilk ;
-    font-size: 17px;
-    height: 75px;
-    margin:auto;
-}
-.sm
-{   
-    float: right;
-    padding: 2px;
-    margin: 15px;
-}
 ul{
     list-style-type: none;
+    text-align: center;
     float: right;
+    margin-right: 25px;
+    font-size: 13px;
+
+}    
+.header{
+    height: 50px;
+    padding: 0px 15px;
+    background-color:rgba(0,0,0,0.8);
+    color: azure;
+    font-size: 40px;
+    
 }
-.L
-{
-background-color: rgb(23, 190, 23);
-padding:10px; 
-}
-.G
-{
-background-color: rgb(23, 190, 23); 
-padding:10px 10px 10px 10px;
+
+.parent{
+    margin-top: 10px;
+    display: flex;
 }
 img{
-    height: 300px;
-    width: 250px;
-    margin: 30px;
-    position: relative;
-    top: 100px;
-    left: 200px;
+    height: 400px;
+    margin: 50px 50px 50px 150px;
+    object-fit:none;
+    border-radius: 50%;
+    flex :1;
 }
-.aboutme{
-    text-align: left;
-    position: relative;
-}
-.content{
-    font-size: 20px;
-}
+
 p{
-    float: right;
-    font-size: 30px;
-    margin-right: 1000px;
-    position: relative;
-    top: 600px;
+    flex :1;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 75px 627px 100px 20px;
+    padding: 12px;
+    background-color: #a19eb8;
+}
+li{
+    display:inline ;
+    padding: 21px;
+}
+h1{
+    float: left;
+    color: seashell;
+}
+a{
+    color: rgb(255, 255, 255);
+    padding:30px 10px 19px 10px;
+    font-size: 25px;
+}
+a:hover{
+    font-weight: bold;
 }
