@@ -49,19 +49,19 @@ p{
     text-align: center;
     margin: 145px 627px 100px 20px;
     padding: 12px;
-    background-color: #a19eb8;
+    background-color: #d4b8c1;
+    box-shadow: 10px 10px rgb(247, 99, 119);
+    border-radius: 8px;
 }
 li{
     display:inline ;
 }
-h1{
-    float: left;
-    color: seashell;
-}
+
+
 a{
     color: rgb(255, 255, 255);
     padding:30px 10px 19px 10px;
-     text-decoration: none;
+    text-decoration: none;
     font-size: 25px;
 }
 a:hover{
